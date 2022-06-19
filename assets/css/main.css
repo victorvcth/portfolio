@@ -13,6 +13,10 @@
   --font-action: 'Muli', serif;
 }
 
+body {
+  min-height: 100vh;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -415,4 +419,40 @@ footer {
 
 #link-topo:hover {
   opacity: 50%;
+}
+
+/* RESPONSIVIDADE */
+@media only screen and (min-width: 620px) {
+  .banner {
+    width: 650px;
+    left: 1%;
+  }
+  .banner h1 {
+    font-size: 3.5rem;
+  }
+
+  .banner p {
+    font-size: 3rem;
+  }
+
+  .sessao-conhecimentos {
+    width: 650px;
+  }
+
+  .conhecimentos {
+    width: 500px;
+  }
+
+  .conhecimentos img {
+    display: none;
+  }
+
+  .sessao-projetos {
+    width: 620px;
+    align-items: center;
+  }
+
+  .sessao-projetos .card {
+    width: 200px;
+  }
 }
