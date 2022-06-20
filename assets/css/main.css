@@ -11,6 +11,7 @@
   --font-primary: 'Baloo Da 2', serif;
   --font-secundary: 'Josefin Slab', serif;
   --font-action: 'Muli', serif;
+  font-size: 60%;
 }
 
 body {
@@ -19,6 +20,11 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.container {
+  width: 70vw;
+  max-width: 700px;
 }
 
 header {
@@ -419,40 +425,4 @@ footer {
 
 #link-topo:hover {
   opacity: 50%;
-}
-
-/* RESPONSIVIDADE */
-@media only screen and (min-width: 620px) {
-  .banner {
-    width: 650px;
-    left: 1%;
-  }
-  .banner h1 {
-    font-size: 3.5rem;
-  }
-
-  .banner p {
-    font-size: 3rem;
-  }
-
-  .sessao-conhecimentos {
-    width: 650px;
-  }
-
-  .conhecimentos {
-    width: 500px;
-  }
-
-  .conhecimentos img {
-    display: none;
-  }
-
-  .sessao-projetos {
-    width: 620px;
-    align-items: center;
-  }
-
-  .sessao-projetos .card {
-    width: 200px;
-  }
 }
