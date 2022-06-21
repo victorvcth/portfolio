@@ -2,10 +2,6 @@
   :root {
     font-size: 60%;
   }
-  .conhecimentos-img-wrapper img {
-    display: block;
-    visibility: hidden;
-  }
   .card-img-wrapper {
     width: 140px;
     /* background: local; */
